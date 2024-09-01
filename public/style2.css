@@ -1,0 +1,46 @@
+td{
+    text-align: center;
+    height: 42px;
+}
+#left{
+    text-align: left;
+    width: 280px;
+}
+#right{
+    text-align: right;
+}
+.height{
+    height: 55px;
+}
+#quantity{
+    width: 95px;
+}
+#green{
+    background-color: rgb(43, 155, 67);
+    color: white;
+}
+#price{
+    width: 85px;
+}
+*{
+    font-size: 19px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+p{
+    font-size: 30px;
+}
+fieldset{
+    border: none;
+}
+button{
+    color: green;
+    background-color: rgb(205, 255, 205);
+    width: 240px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+body{
+    background-color: rgb(242, 255, 193);
+}

@@ -1,0 +1,41 @@
+div{
+    border: 1px solid white;
+    width: 300px;
+    height: 415px;
+    background-color: white;
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#large{
+    font-size: 30px;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+button{
+    color: blue;
+    background-color: rgb(184, 214, 224);
+    width: 240px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+fieldset{
+    border: none;
+}
+.main{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(160px, 1fr));   
+    gap: 20px;
+}
+.heading{
+    font-size: 30px;
+}
